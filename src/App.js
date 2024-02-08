@@ -1,4 +1,6 @@
 import './App.css';
+import ClassClick from './components/ClassClick';
+import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 //import Hello from './components/Hello';
@@ -8,6 +10,7 @@ import Welcome from './components/Welcome'
 function App() {
   return (
     <div className="App">
+      <ClassClick/>
       {/* <Counter /> */}
       <Greet name="Rovid" heroName="Batman">
         <p>This is Children props</p>
@@ -15,6 +18,7 @@ function App() {
       <Welcome name="Dhirendra" heroName="Superman">
         <button>Action</button>
         </Welcome> 
+        <FunctionClick/>
       {/* <Greet name="Kashyap" heroName="Wonder Women">
         <p>This is Children</p>
       </Greet> */}
