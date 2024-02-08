@@ -1,21 +1,21 @@
 import './App.css';
-// import Greet from './components/Greet'
-// import Welcome from './components/Welcome'
+import Greet from './components/Greet'
+import Welcome from './components/Welcome'
 //import Hello from './components/Hello';
 // import Message from './components/Message';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
-      {/* <Greet name="Rovid" heroName="Batman">
+      {/* <Counter /> */}
+      <Greet name="Rovid" heroName="Batman">
         <p>This is Children props</p>
         </Greet>
       <Welcome name="Dhirendra" heroName="Superman">
         <button>Action</button>
         </Welcome> 
-      <Greet name="Kashyap" heroName="Wonder Women">
+      {/* <Greet name="Kashyap" heroName="Wonder Women">
         <p>This is Children</p>
       </Greet> */}
       {/* <Message>
